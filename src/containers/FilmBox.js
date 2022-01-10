@@ -32,11 +32,11 @@ const FilmBox = () => {
 
     return (
         <>
-        <h2>Upcoming Film Releases for UK</h2>
+        <h3>Upcoming Film Releases for UK</h3>
         <hr></hr>
         <FilmList films = {films}/>
         <hr></hr>
-        <a href='https://www.imdb.com/calendar/?region=gb'>View more upcoming releases {'>>'}</a>
+        <a id='bottom_link' href='https://www.imdb.com/calendar/?region=gb'>View more upcoming releases {'>>'}</a>
         </>
     );
 };
